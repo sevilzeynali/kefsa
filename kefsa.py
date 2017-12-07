@@ -5,13 +5,13 @@ import spacy
 import textacy
 import glob
 import os
-
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
 import time
+
 start_time = time.time()
+
 ENTRY_DIROCTORY_PATH=''
 OUTPUT_DIRECTORY=''
+
 fileIn=glob.glob(ENTRY_DIROCTORY_PATH+"/*")
 for f in fileIn:
 	file= open(f,"r")
