@@ -7,7 +7,7 @@ import glob
 import os
 
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-import re
+# -*- coding: utf-8 -*-
 import time
 start_time = time.time()
 ENTRY_DIROCTORY_PATH=''
