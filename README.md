@@ -19,4 +19,4 @@ $ sudo pip install -U spacy
 
 The input folder should contanins scientific articles in txt format.
 
-In output folder you can see the keywords and their tfidf for each article in a separated txt file.
+In output folder you can see the keywords and their count in the text for each article in a separated txt file.
