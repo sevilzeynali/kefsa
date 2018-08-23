@@ -9,8 +9,8 @@ import glob
 import os
 import textacy.keyterms
 
-ENTRY_DIROCTORY_PATH='/home/zese150/Bureau/test'
-OUTPUT_DIRECTORY='/home/zese150/Bureau/res/'
+ENTRY_DIROCTORY_PATH=''
+OUTPUT_DIRECTORY=''
 
 fileIn=glob.glob(ENTRY_DIROCTORY_PATH+"/*")
 for f in fileIn:
