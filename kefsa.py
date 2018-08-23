@@ -18,7 +18,6 @@ for f in fileIn:
     doc=textacy.Doc(read_data)
     bot = doc.to_bag_of_terms(ngrams=(1, 2), named_entities=True, weighting='count',as_strings=True)
     liste_tuples=sorted(bot.items(), key=lambda x: x[1], reverse=True)[:20]
-    print(OUTPUT_DIRECTORY+os.path.basename(f))
     outfile=open(OUTPUT_DIRECTORY+os.path.basename(f),"w")
     for tup in liste_tuples:
         outfile.write(tup[0]+","+str(tup[1])+"\n")
